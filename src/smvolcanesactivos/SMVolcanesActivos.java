@@ -4,7 +4,7 @@
  */
 package smvolcanesactivos;
 
-import gui.frmListaVolcanes;
+import gui.frmMenuPrincipal;
 
 
 /**
@@ -14,8 +14,9 @@ import gui.frmListaVolcanes;
 public class SMVolcanesActivos {
 
  
+
     public static void main(String[] args) {
-        frmListaVolcanes frm = new frmListaVolcanes();
-        frm.setVisible(true);
+        frmMenuPrincipal frmMenu = new frmMenuPrincipal();
+        frmMenu.setVisible(true);
     }
 }
